@@ -35,6 +35,7 @@ git checkout -b dev 创建分支dev并将将当前工作切换到dev
 
 git branch 查看当前分支
 git merge dev 合并指定分支到当前分支
+git branch -d dev 删除分支dev
 
 常见文件操作命令：
 mkdir [filename] 创建文件目录
