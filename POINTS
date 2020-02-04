@@ -10,6 +10,7 @@ git reset --hard [commit id] 回退到某个commit版本
 git reset HEAD [file] 将暂存区的修改回退到工作区
 git reflog 查看之前执行的命令，可以查找之前的commit id
 git checkout --[file] 丢弃最近一次add或commit之后工作区的修改
+
 git remote add origin git@github.com:ForDre/learngit.git 将远程仓库与本地仓库进行关联
 git remote -v 检查当前仓库对应的远程仓库
 git remote rename origin [name] 修改远程仓库名
