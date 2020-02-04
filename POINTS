@@ -1,6 +1,7 @@
 常见的git命令：
 git init 将当前目录设置为本地仓库
 git add [file] 将文件添加到暂存库
+git rm [file] 删除文件
 git commit -m [description] 提交当前暂存库到版本库，后面填写提交说明
 git status 检视当前库状态
 git diff 查看当前暂存库与版本库的差别
