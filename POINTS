@@ -27,6 +27,11 @@ git pull origin master 拉取全程仓库到本地仓库
 
 git clone [origin address] 克隆远程仓库到本地，克隆完成会自动在仓库生成文件README.md
 
+git checkout -b dev 创建分支dev并将将当前工作切换到dev
+相当于以下两条命令：
+		git branch dev		创建分支dev
+		git checkout dev	切换到分支dev
+
 
 
 常见文件操作命令：
@@ -43,3 +48,5 @@ ls -al 显示当前目录下文件明细
 Repository 版本库
 Origin 远程库
 Commit 提交
+branch 分支
+subfield 分区；分支
