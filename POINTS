@@ -45,6 +45,13 @@ git switch [branch] 切换到新分支
 git log --graph 看到分支合并图
 
 
+Git一般会使用Fast forward模式进行合并，这样的合并会丢失分支信息，为了防止分支信息丢失，我们需要添加参数--no-ff进行合并
+举例：git merge --no-ff -m "添加说明" dev  使用普通模式合并dev分支到当前分支并不丢失分支信息
+
+
+
+
+
 常见文件操作命令：
 mkdir [filename] 创建文件目录
 rm [filename] 删除文件
