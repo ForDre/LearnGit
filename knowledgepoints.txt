@@ -1,0 +1,28 @@
+常见的git命令：
+git init 将当前目录设置为本地仓库
+git add [file] 将文件添加到暂存库
+git commit -m [description] 提交当前暂存库到版本库，后面填写提交说明
+git status 检视当前库状态
+git diff 查看当前暂存库与版本库的差别
+git log 检视日志
+git reset --hard HEAD^ 回退到上个版本
+git reset --hard [commit id] 回退到某个commit版本
+git reset HEAD [file] 将暂存区的修改回退到工作区
+git reflog 查看之前执行的命令，可以查找之前的commit id
+git checkout --[file] 丢弃最近一次add或commit之后工作区的修改
+
+
+常见文件操作命令：
+mkdir [filename] 创建文件目录
+rm [filename] 删除文件
+cat [filename] 读取文件内容
+cd [filename] 跳转到文件目录
+pwd 显示当前目录
+ls -al 显示当前目录下文件明细
+
+
+
+常见的英文（关于版本管理git）：
+Repository 版本库
+Origin 远程库
+Commit 提交
