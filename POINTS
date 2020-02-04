@@ -42,6 +42,9 @@ git switch [branch] 切换到新分支
 举例：git switch -c [branch] 创建新分支并切换到该分支
 **多用分支～～
 
+git log --graph 看到分支合并图
+
+
 常见文件操作命令：
 mkdir [filename] 创建文件目录
 rm [filename] 删除文件
