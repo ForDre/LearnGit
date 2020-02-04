@@ -49,6 +49,8 @@ Git一般会使用Fast forward模式进行合并，这样的合并会丢失分�
 举例：git merge --no-ff -m "添加说明" dev  使用普通模式合并dev分支到当前分支并不丢失分支信息
 
 
+git stash  保存当前工作现场
+
 
 
 
