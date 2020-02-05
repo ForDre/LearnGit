@@ -28,12 +28,12 @@
     - git clone [link](git@github.com:ForDre/learngit.git)克隆远程仓库到本地，克隆完成会自动在仓库生成文件README.md
     - git checkout -b dev 创建分支dev并将当前工作切换到分支dev
     - 相当于以下两个命令：
-    -       git branch dev 创建分支dev
-    -       git checkout dev 切换到分支dev
+        - git branch dev 创建分支dev
+        - git checkout dev 切换到分支dev
     - git branch 查看当前分支情况
     - git branch -d dev 删除分支dev
-    - ~重要内容~
-            由于git checkout [branch]命令与git checkout --[file]即撤销修改是同一个命令，却有两种功能，令人迷惑，所以新版有了新命令来使用分支切换
+    - *重要内容*
+        - 由于git checkout [branch]命令与git checkout --[file]即撤销修改是同一个命令，却有两种功能，令人迷惑，所以新版有了新命令来使用分支切换
     - git switch [branch] 切换到新分支
     - 举例：git switch -c [branch] 创建新分支并切换到该分支
     - git merge dev 合并指定分支到当前分支
