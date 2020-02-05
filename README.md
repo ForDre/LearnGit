@@ -1,18 +1,18 @@
 # Git使用学习
 ## Git常用命令
 +基本命令
--git init 创建本地仓库
--git add 提交文件到暂存库
--git commit -m "description" 提交当前暂存库文件到版本库并填写说明
--git status 检视当前库状态
--git log 检视日志
--git log --graph --pretty=oneline 检视日志并显示分支合并图，并以一行显示每次操作
--git diff 检视当前暂存库与版本库的差别
--git reset --hard HEAD^ 回退到上个版本
--git reset --hard [commit id] 回退到指定commit版本
--git reset HEAD [file] 将暂存区修改回退到工作区
--git reflog 查看之前执行的命令，可以查找之前的commit id
--git checkout --[file] 丢弃最近一次add或commit之后对工作区的修改`
+        -git init 创建本地仓库
+        -git add 提交文件到暂存库
+        -git commit -m "description" 提交当前暂存库文件到版本库并填写说明
+        -git status 检视当前库状态
+        -git log 检视日志
+        -git log --graph --pretty=oneline 检视日志并显示分支合并图，并以一行显示每次操作
+        -git diff 检视当前暂存库与版本库的差别
+        -git reset --hard HEAD^ 回退到上个版本
+        -git reset --hard [commit id] 回退到指定commit版本
+        -git reset HEAD [file] 将暂存区修改回退到工作区
+        -git reflog 查看之前执行的命令，可以查找之前的commit id
+        -git checkout --[file] 丢弃最近一次add或commit之后对工作区的修改`
 ***
 +远程库相关命令
 -git remote -v 检查当前仓库对应的远程仓库的具体信息
