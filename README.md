@@ -31,8 +31,10 @@
     - 相当于以下两个命令：
         - git branch dev 创建分支dev
         - git checkout dev 切换到分支dev
-    - git branch 查看当前分支情况
-    - git branch -d dev 删除分支dev
+    - git branch 查看当前分支情况（只有本地分支情况，在后面添加“-a”参数可以查看本地以及远程分支）
+    - git branch -d [branchname] 删除分支
+    - git push origin --delete [branchname]  删除远程分支
+    - git fetch -p  清理本地分支（远程已删除本地未删除的分支）
     - *重要内容*
         - 由于git checkout [branch]命令与git checkout --[file]即撤销修改是同一个命令，却有两种功能，令人迷惑，所以新版有了新命令来使用分支切换
     - git switch [branch] 切换到新分支
