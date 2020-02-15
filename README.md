@@ -46,12 +46,18 @@
     - git tag  查看所有标签
     - git tag [name]  默认给最新的commit打标签，若要给某个指定的commit打标签，需要在后面加上commit id，比如：git tag v1.0 [commit id]
     - git tag -a [tagname] -m "blabla..."  指定标签信息
++ 忽略文件.gitignore
+    - 有时一些文件我们不需要添加到版本库的，比如一个编译文件，系统文件等，我们可以创建一个.gitignore文件来忽略这些文件
+        > 1.使用 mkdir .gitignore 直接创建文件
+        > 2.先在文件目录下创建gitignore文件，然后使用命令: mv gitignore .gitignore 将gitignore文件设置为隐藏文件（Mac OS系统下不能直接创建.gitignore文件）
+        - Mac OS系统下，要显示隐藏的文件最方便的方式是使用快捷键：command + shift + .    或者查看[这里](https://www.jianshu.com/p/1222dace3231)提供的方法。
 ***
 ## 常用文件操作命令
 + 文件操作
-    - mkdir [filename] 创建文件目录
+    - mkdir [file] 创建文件目录
+    - touch [filename] 创建文件
     - rm [filename] 删除文件
     - cat [filename] 读取文件内容
     - cd [file] 跳转到文件目录
     - pwd 显示当前目录
-    - ls -al 显示当前目录下文件明细
+    - ls -al 显示当前目录下文件明细，同时能显示隐藏文件
