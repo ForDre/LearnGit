@@ -48,7 +48,7 @@
     - git tag -a [tagname] -m "blabla..."  指定标签信息
 + 忽略文件.gitignore
     - 有时一些文件我们不需要添加到版本库的，比如一个编译文件，系统文件等，我们可以创建一个.gitignore文件来忽略这些文件
-        ```- 1.使用 mkdir .gitignore 直接创建文件
+        - 1.使用 touch .gitignore 直接创建文件
         - 2.先在文件目录下创建gitignore文件，然后使用命令: mv gitignore .gitignore 将gitignore文件设置为隐藏文件（Mac OS系统下不能直接创建.gitignore文件）
         - 3.Mac OS系统下，要显示隐藏的文件最方便的方式是使用快捷键：command + shift + . 或者查看[这里](https://www.jianshu.com/p/1222dace3231)提供的方法。
 
