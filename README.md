@@ -42,6 +42,10 @@
     - git merge dev 合并指定分支到当前分支
     - git merge --no-ff -m "description" dev 使用普通模式合并dev分支到当前分支并且不删除分支信息，因为git一般会使用fastforward模式进行合并，这样的合并会丢失分支信息，为了防止分支信息丢失，添加'--no-ff'参数防止分支信息丢失
     - git stash 保存当前工作现场
++ 打标签（tag）
+    - git tag  查看所有标签
+    - git tag [name]  默认给最新的commit打标签，若要给某个指定的commit打标签，需要在后面加上commit id，比如：git tag v1.0 [commit id]
+    - git tag -a [tagname] -m "blabla..."  指定标签信息
 ***
 ## 常用文件操作命令
 + 文件操作
