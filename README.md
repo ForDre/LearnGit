@@ -13,6 +13,7 @@
     - git reset HEAD [file] 将暂存区修改回退到工作区
     - git reflog 查看之前执行的命令，可以查找之前的commit id
     - git checkout --[file] 丢弃最近一次add或commit之后对工作区的修改
+    - git rm [file]  删除版本库中的文件
 ***
 + 远程库相关命令
     - git remote -v 检查当前仓库对应的远程仓库的具体信息
