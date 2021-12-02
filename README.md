@@ -20,7 +20,7 @@
 ## 远程库相关命令
     - git remote -v 检查当前仓库对应的远程仓库的具体信息
     - git remote rename origin [name] 修改远程仓库名
-    - git remote add origin [link](git@github.com:ForDre/learngit.git) 添加远程仓库到本地
+    - git remote add origin [link](git@github.com:ForDre/learngit.git) 在当前仓库目录下输入该命令与远程仓库进行关联
     - git remote set-url origin [link](git@github.com:ForDre/learngit.git) 修改本地仓库对应的远程仓库地址
     - 远程关联协议可以是http(s)://或git://或user@server:/path.git支持的SSH协议-速度最快
 ***
