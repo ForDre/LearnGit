@@ -75,3 +75,10 @@
     - pwd 显示当前目录
     - ls -al 显示当前目录下文件明细，同时能显示隐藏文件
 ***
+## 创建SSH-Key步骤
+    1. 检查电脑上是否已有SSH-Key，在用户主目录下检查是否有.ssh目录，若有则检查是否有id_rsa,id_rsa.pub两个文件，若有则已具备SSH_Key
+    2. 若没有，则需打开终端，输入以下命令
+        ```
+        ssh-keygen -t rsa -C "Your-email@email.com"
+        ```
+    3. 若顺利则能在主目录下找到.ssh目录，里面有id_rsa和id_rsa.pub两个文件
