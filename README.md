@@ -82,3 +82,42 @@
         ssh-keygen -t rsa -C "Your-email@email.com"
         ```
     3. 若顺利则能在主目录下找到.ssh目录，里面有id_rsa和id_rsa.pub两个文件
+
+## 终端zsh,bash的切换
+
+```
+csch -s /bin/zsh/   切换为zsh终端
+csch -s /bin/bash/   切换为bash终端
+```
+
+## 安装homebrew，ruby，sass，compass
+
+> + homebrew官方网站被墙，推荐用中科大的源安装（终端录入以下命令）：`/bin/bash -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/ineo6/homebrew-install/install.sh)"`
+>
+>   [链接]:https://brew.idayer.com
+
+> + ruby安装是通过homebrew安装的，使用以下命令：`brew ruby`
+
+> + sass,compass安装使用以下命令
+>
+>   ```  
+>   gem install sass
+>   gem install compass
+>   （提示：若出现拒绝安装，可能是权限不够，需在命令前加sudo命令）
+>   ```
+>
+>   安装成功后，使用命令` sass -v`检查版本号，若出现zsh:command not found错误，处理方法如下：
+>
+>   1、先删除sass,compass
+>
+>   ``` 
+>   gem uninstall sass
+>   ```
+>
+>   2、指定路径安装sass,compass
+>
+>   ```
+>   gem install -n /usr/local/bin/ sass
+>   ```
+>
+>   3、安装完成
